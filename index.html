@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>解放区 Vol.1｜観覧・ライブ配信チケット</title>
+  <meta name="description" content="2026年9月1日開催。会場観覧は限定30名、ライブ配信チケットも受付中。音楽・ベリーダンス・体験ワークショップを通して、わたしを思い出す参加型ライブイベント。" />
+  <style>
+    :root{
+      --pink:#e64b8b;
+      --orange:#f58b3b;
+      --purple:#6f48b7;
+      --ink:#3b2b2b;
+      --muted:#6f5c5c;
+      --cream:#fff7ee;
+      --rose:#fff1f6;
+      --white:#fff;
+      --gold:#f7b733;
+      --line:rgba(230,75,139,.16);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
+      color:var(--ink);
+      background:linear-gradient(180deg,#fff7f2 0%,#fff 52%,#fff5fa 100%);
+      line-height:1.85;
+    }
+    img{max-width:100%;display:block}
+    a{color:inherit}
+    .hero{position:relative;overflow:hidden;background:#fff}
+    .hero img{width:100%;height:auto}
+    .nav{
+      position:sticky;
+      top:0;
+      z-index:10;
+      background:rgba(255,255,255,.9);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .nav-inner{
+      max-width:1080px;
+      margin:0 auto;
+      padding:10px 20px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+    }
+    .brand{font-weight:800;color:var(--pink);letter-spacing:.03em}
+    .btn{
+      display:inline-block;
+      background:linear-gradient(90deg,var(--orange),var(--pink),var(--purple));
+      color:white;
+      text-decoration:none;
+      font-weight:800;
+      border-radius:999px;
+      padding:12px 22px;
+      box-shadow:0 8px 20px rgba(230,75,139,.25);
+      text-align:center;
+    }
+    .btn.secondary{
+      background:#fff;
+      color:var(--pink);
+      border:2px solid var(--pink);
+      box-shadow:none;
+    }
+    main{max-width:960px;margin:0 auto;padding:44px 20px 80px}
+    .catch{text-align:center;padding:28px 20px 36px}
+    h1,h2,h3{line-height:1.35;margin:0 0 .8em}
+    h1{font-size:clamp(2rem,5vw,4rem);color:var(--pink)}
+    h2{font-size:clamp(1.5rem,3vw,2.25rem);color:var(--pink)}
+    h3{font-size:1.25rem;color:var(--purple)}
+    p{margin:0 0 1.1em}
+    .sub{font-size:1.16rem;font-weight:650}
+    .lead{font-size:1.18rem;font-weight:800}
+    .note{color:var(--muted);font-size:.95rem}
+    .section{
+      background:rgba(255,255,255,.82);
+      border:1px solid var(--line);
+      border-radius:26px;
+      padding:34px;
+      margin:24px 0;
+      box-shadow:0 12px 30px rgba(122,76,194,.06);
+    }
+    .ribbon{
+      display:inline-block;
+      background:#fff1f6;
+      border:2px solid var(--pink);
+      color:var(--pink);
+      border-radius:999px;
+      padding:8px 16px;
+      font-weight:900;
+      margin:.2em .25em;
+    }
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .card{
+      background:#fff;
+      border-radius:18px;
+      padding:22px;
+      border:1px solid rgba(247,183,51,.28);
+    }
+    .ticket{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      min-height:100%;
+    }
+    .price{font-size:2rem;font-weight:900;color:var(--pink);line-height:1.2}
+    .list{padding-left:1.2em;margin:0 0 1em}
+    .list li{margin:.25em 0}
+    .info-table{width:100%;border-collapse:collapse}
+    .info-table th,.info-table td{padding:12px 0;border-bottom:1px dashed rgba(59,43,43,.2);vertical-align:top}
+    .info-table th{width:150px;text-align:left;color:var(--purple)}
+    .cta-band{
+      background:linear-gradient(135deg,#fff2d9,#fff0f8);
+      border-radius:28px;
+      padding:34px 24px;
+      text-align:center;
+      margin:28px 0;
+    }
+    .final-cta{
+      text-align:center;
+      background:linear-gradient(135deg,#fff2d9,#fff0f8);
+      border-radius:32px;
+      padding:42px 24px;
+      margin-top:40px;
+    }
+    @media(max-width:700px){
+      .grid{grid-template-columns:1fr}
+      .section{padding:24px;border-radius:20px}
+      .nav-inner{align-items:flex-start;flex-direction:column}
+      .btn{width:100%}
+      .info-table th{width:110px}
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img src="assets/facebook-banner-1.png" alt="解放区 Open your mind やっちゃえ、わたし。" />
+  </header>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">解放区 Vol.1｜9/1 たまプラーザ3丁目カフェ</div>
+      <a class="btn" href="https://forms.gle/DBxKn5cWAZE3YsVp7" target="_blank" rel="noopener">観覧・配信チケットを申し込む</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="catch">
+      <h1>本当はやりたい。<br>その気持ちを、もう置き去りにしない。</h1>
+      <p class="sub">音楽・ベリーダンス・人との出会いを通して、<br>“わたし”を思い出す参加型ライブイベント。</p>
+      <p>
+        <span class="ribbon">会場観覧 限定30名</span>
+        <span class="ribbon">ライブ配信あり</span>
+        <span class="ribbon">ミニワークショップ予定</span>
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>観覧チケット受付中</h2>
+      <p class="lead">会場で感じる方も、遠くから配信で受け取る方も。</p>
+      <p>9月1日の『解放区 Vol.1』は、観るだけで終わらない参加型ライブイベントです。出演者がそれぞれの「今の自分」を表現し、会場にいる人も配信で見ている人も、自分の中にある小さな“やりたい”を思い出せる時間を目指しています。</p>
+      <p>会場観覧はお席に限りがあるため、限定30名で受付します。遠方の方や当日会場に来られない方には、ライブ配信チケットもご用意しています。</p>
+      <p><a class="btn" href="https://forms.gle/DBxKn5cWAZE3YsVp7" target="_blank" rel="noopener">申し込みフォームへ</a></p>
+    </section>
+
+    <section class="section">
+      <h2>こんな方へ</h2>
+      <p>本当はやりたいことがある方。<br>でも、家族や夫に遠慮してしまう方。<br>自分の楽しみに時間やお金を使うことに、どこか引け目を感じている方。<br>「今さら」と思いながらも、生きているうちに一度はやってみたいことがある方。<br>人前で表現する人を見て、勇気をもらいたい方。<br>楽しくてあたたかい場所で、自分を少し解放したい方。</p>
+      <p class="lead">あなたの“やりたい”は、わがままではありません。</p>
+      <p>それは、あなたが生きている実感を取り戻すための、大切な声です。</p>
+    </section>
+
+    <section class="section">
+      <h2>『解放区』とは</h2>
+      <p>『解放区』は、音楽を中心にした <strong>自分解放 × 共創</strong> の参加型ライブイベントです。</p>
+      <p>ステージでは、歌、バンド、弾き語り、ベリーダンスなど、出演者それぞれが「今の自分」を表現します。</p>
+      <p>うまい、下手ではなく、完璧かどうかでもなく、「やってみたい」を形にする人たちの姿を、その場で感じていただけます。</p>
+      <p class="lead">観るだけでも大丈夫。でも、ただの観覧で終わらせません。</p>
+      <p>会場では、観るだけでなく、みんなで音を感じ、体験できるミニワークショップも開催予定です。経験や上手い・下手は関係ありません。その場にいる全員で、ひとつの音の時間を一緒につくります。</p>
+    </section>
+
+    <section class="section">
+      <h2>チケット</h2>
+      <div class="grid">
+        <div class="card ticket">
+          <h3>会場観覧チケット</h3>
+          <div class="price">3,000円</div>
+          <p>出演者の空気感や熱量を、会場でそのまま受け取れるチケットです。</p>
+          <ul class="list">
+            <li>限定30名</li>
+            <li>ドリンク代500円は当日お店へ</li>
+            <li>ミニワークショップにも参加できます</li>
+          </ul>
+        </div>
+        <div class="card ticket">
+          <h3>ライブ配信チケット</h3>
+          <div class="price">3,000円</div>
+          <p>当日会場に来られない方も、リアルタイムで解放区をお楽しみいただけます。</p>
+          <ul class="list">
+            <li>配信チケットに人数制限はありません</li>
+            <li>当日のライブ配信リンクをお送りします</li>
+            <li>リアルタイムで見られない方には、後日期間限定でアーカイブ視聴リンクをお送りします</li>
+          </ul>
+          <p class="note">出演者の方で配信リンクをご希望の場合は、追加1,000円でお受けします。お申し込みフォーム内でお知らせください。</p>
+        </div>
+        <div class="card ticket">
+          <h3>応援チケット</h3>
+          <div class="price">1,000円〜</div>
+          <p>「ゆうかの活動を応援したい」と思ってくださる方に向けたチケットです。会場に来られない方、配信を見る時間が取れない方も、応援という形で『解放区』にご参加いただけます。</p>
+          <ul class="list">
+            <li>シルバー：1,000円</li>
+            <li>ゴールド：5,000円</li>
+            <li>プラチナ：20,000円</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>このイベントで得られること</h2>
+      <p>このイベントに来ることで、年齢や家族への遠慮で止めていた気持ちが、少し軽くなるかもしれません。</p>
+      <p>「私も何かやってみたい」<br>「まだ遅くないかもしれない」<br>「私の人生、まだまだ楽しめる」</p>
+      <p>そんな感覚を、音楽やダンス、そして人との出会いを通して感じていただける時間です。</p>
+    </section>
+
+    <section class="section">
+      <h2>来ないことで、もしかしたら起こること</h2>
+      <p>もちろん、来なくても日常は続きます。</p>
+      <p>でも、また心のどこかで「本当は行きたかった」「本当はやってみたかった」「でも、また遠慮してしまった」と思うかもしれません。</p>
+      <p class="lead">“いつか”と思っていたことを、“今、少しだけ動かしてみる”。</p>
+      <p>9月1日を、そんなきっかけの日にしませんか？</p>
+    </section>
+
+    <section class="section">
+      <h2>出演予定</h2>
+      <div class="grid">
+        <div class="card"><h3>みき＆ゆうか</h3><p>音楽を通して、心がほどけるようなあたたかい時間をお届けします。</p></div>
+        <div class="card"><h3>吉谷アキラ</h3><p>言葉と音で、会場に響くステージをお届けします。</p></div>
+        <div class="card"><h3>ニッシー</h3><p>その場を楽しく盛り上げるステージをお楽しみください。</p></div>
+        <div class="card"><h3>キーヌシー</h3><p>癒しと遊び心のある世界観で、会場に笑顔を届けます。</p></div>
+      </div>
+      <p class="note">※出演者紹介文は、後日ご本人確認のうえ掲載予定です。</p>
+    </section>
+
+    <section class="section">
+      <h2>ベリーダンス部門代表</h2>
+      <h3>ふみな先生｜ベリーダンス講師</h3>
+      <p>踊りを通して、心と身体を解放するベリーダンス講師。</p>
+      <p>2009年よりベリーダンスを学び始め、2017年に独立。町田・横浜を中心に「Tribal Fusion style」のレッスンを行い、オンラインレッスン参加者は延べ15,000人以上、手がけた振付は100曲以上にのぼります。</p>
+      <p>今回の『解放区』では、ベリーダンス部門代表として、“自分を解き放つ楽しさ”を会場いっぱいに広げてくださいます。</p>
+    </section>
+
+    <section class="section">
+      <h2>主催者メッセージ</h2>
+      <p>私は、特別な才能がある人だけが表現しているとは思っていません。</p>
+      <p>歌が上手だと言われてきたわけでも、音楽の道をまっすぐ歩いてきたわけでもありません。それでも、心の奥にはずっと「表現したい」「歌いたい」「自分の人生をもう一度動かしたい」という気持ちがありました。</p>
+      <p>未完成でもいい。怖くてもいい。うまくできなくてもいい。一歩踏み出す姿は、きっと誰かの勇気になります。</p>
+      <p>『解放区』は、そんな想いから生まれたイベントです。ここでは、あなたの“やりたい”を心から応援します。</p>
+    </section>
+
+    <section class="section">
+      <h2>開催概要</h2>
+      <table class="info-table">
+        <tr><th>イベント名</th><td>解放区 Vol.1</td></tr>
+        <tr><th>サブタイトル</th><td>Open your mind — やっちゃえ、わたし。</td></tr>
+        <tr><th>日時</th><td>2026年9月1日（火）12:00〜15:00</td></tr>
+        <tr><th>場所</th><td>たまプラーザ 3丁目カフェ</td></tr>
+        <tr><th>会場観覧</th><td>3,000円／限定30名<br>※ドリンク代500円は当日お店へ</td></tr>
+        <tr><th>ライブ配信</th><td>3,000円／人数制限なし<br>当日のリアル配信リンクをお送りします。見逃した方には後日期間限定のアーカイブ視聴リンクをお送りします。</td></tr>
+        <tr><th>応援チケット</th><td>シルバー 1,000円／ゴールド 5,000円／プラチナ 20,000円<br>ゆうかの活動を応援したいと思ってくださる方に向けたチケットです。</td></tr>
+        <tr><th>出演者向け</th><td>配信リンクをご希望の場合は追加1,000円でお受けします。</td></tr>
+        <tr><th>お支払い</th><td>PayPay／銀行振込／クレジットカード決済（Square）</td></tr>
+      </table>
+    </section>
+
+    <section class="cta-band">
+      <h2>会場観覧は限定30名です</h2>
+      <p>定員に達し次第、受付を終了します。気になる方は、お早めにお申し込みください。</p>
+      <p><a class="btn" href="https://forms.gle/DBxKn5cWAZE3YsVp7" target="_blank" rel="noopener">観覧・配信チケットを申し込む</a></p>
+    </section>
+
+    <section class="section">
+      <h2>キャンセルについて</h2>
+      <p>ご都合が悪くなった場合は、お早めにご連絡ください。</p>
+      <p>2026年8月17日（月）までのキャンセル：全額返金<br>2026年8月18日（火）〜8月24日（月）のキャンセル：参加費の50％を頂戴します<br>2026年8月25日（火）以降のキャンセル：返金はできかねます</p>
+      <p>配信チケットをご購入の方には、当日ご覧いただけない場合も、後日期間限定のアーカイブ視聴リンクをお送りします。</p>
+    </section>
+
+    <section class="section">
+      <h2>よくある質問</h2>
+      <h3>当日リアルタイムで配信を見られない場合はどうなりますか？</h3>
+      <p>配信チケットをご購入の方には、後日期間限定でアーカイブ視聴リンクをお送りします。</p>
+      <h3>会場観覧は何名までですか？</h3>
+      <p>会場観覧は限定30名です。定員に達し次第、受付終了となります。</p>
+      <h3>出演者も配信リンクを購入できますか？</h3>
+      <p>はい。出演者の方は追加1,000円で配信リンクをお渡しできます。</p>
+    </section>
+
+    <section class="final-cta">
+      <h2>あなたの“やりたい”は、誰かの勇気になります。</h2>
+      <p>9月1日、たまプラーザ3丁目カフェでお待ちしています。</p>
+      <p><a class="btn" href="https://forms.gle/DBxKn5cWAZE3YsVp7" target="_blank" rel="noopener">Googleフォームでお申し込み</a></p>
+    </section>
+  </main>
+</body>
+</html>
